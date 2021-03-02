@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        body{
+            font-family: sans-serif,Arial;
+            margin-bottom: 500px;
+        }
+        div{
+            background-color: lightgreen;
+            text-align: center;
+            padding: 15px;
+            width: 800px;
+            font-size: 25px;
+        }
+        #border-all{
+            border:10px solid limegreen;
+        }
+        #border-single{
+            border-top: 15px solid red;
+            border-right: 15px solid orangered;
+            border-bottom: 15px solid red;
+            border-left: 15px solid orangered;
+        }
+        #border-round {
+            border: 10px solid limegreen;
+            border-radius: 80px;
+        }
+        #border-rounded-two{
+            border: 10px solid limegreen;
+            border-radius: 60px 0 60px 0
+        }
+        #circle{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            background-color: limegreen;
+        }
+        #border-circle{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            background-color: limegreen;
+            border: 25px solid greenyellow;
+        }
+        #border-frame{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            /*border:25px solid greenyellow;*/
+            border-top: 25px solid red;
+            border-right: 25px solid blue;
+            border-left: 25px solid blue;
+            border-bottom: 25px solid red;
+
+        }
+    </style>
+</head>
+<body>
+<h2>Border All SIde</h2>
+<div id="border-all">
+    <h2>border all side</h2>
+</div>
+<h2>Border singe SIde</h2>
+<div id="border-single">
+    <h2>border single side</h2>
+</div>
+
+<h2>Border Round All</h2>
+<div id="border-round">
+    <h2>Border Round All</h2>
+</div>
+<h2>Border Rounded Two</h2>
+<div id="border-rounded-two">
+    <h2>Border Rounded Two</h2>
+</div>
+<h2>Circle</h2>
+<section id="circle">
+</section>
+
+<h2>Border Circle</h2>
+<section id="border-circle">
+</section>
+
+<h2>Border frame</h2>
+<section id="border-frame">
+</section>
+<h2>Border ring</h2>
+<section id="border-frame">
+</section>
+
+
+</body>
+</html>
